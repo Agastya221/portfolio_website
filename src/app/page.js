@@ -186,7 +186,7 @@ export default function Home() {
               
             </div>
             <div className="basis-1/3 flex-1 ">
-              <Link href="">
+              <Link href="https://github.com/Agastya221/portfolio_website">
               <Image
                 className="rounded-lg shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] object-cover"
                 width={"100%"}
@@ -197,7 +197,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <Link >
+              <Link  href="https://wave-portal-advance.netlify.app/">
               <Image
                 className="rounded-lg shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] object-cover"
                 width={"100%"}
@@ -206,9 +206,6 @@ export default function Home() {
                 src={web5}
               />
               </Link>
-            </div>
-            <div className="basis-1/3 flex-1">
-             
             </div>
           </div>
         </section>
