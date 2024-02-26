@@ -16,7 +16,6 @@ import web2 from "../../public/web2.png";
 import web3 from "../../public/web3.png";
 import web4 from "../../public/web4.png";
 import web5 from "../../public/web5.png";
-import web6 from "../../public/web6.png";
 import Link from "next/link";
 
 export default function Home() {
@@ -61,7 +60,7 @@ export default function Home() {
               </li>
               <li>
                 <Link
-                href="https://docs.google.com/document/d/1F1cokqd4_vVEQKemq_j6SyO-ndqBYEcPDCfYenc8PmQ/edit?usp=sharing"
+                href={"https://docs.google.com/document/d/1F1cokqd4_vVEQKemq_j6SyO-ndqBYEcPDCfYenc8PmQ/edit?usp=sharing"}
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   
                 >
@@ -88,7 +87,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-64 md:w-80 h-64 md:h-80 relative overflow-hidden mt-10 md:mt-0">
-              <Image src={profile} layout="fill" objectFit="cover" />
+              <Image src={profile} fill alt="img" style={{objectFit:"cover"}} />
             </div>
           </div>
 
@@ -111,7 +110,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10 ">
             <div className="text-center  p-10 rounded-xl my-10 shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} alt="img" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
@@ -121,7 +120,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center  p-10 rounded-xl my-10 shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} alt="img" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
@@ -131,7 +130,7 @@ export default function Home() {
 
             </div>
             <div className="text-center shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} alt="img" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Feedback</h3>
               <p className="py-2">
                 I'm interested in your feedback, So That I can
@@ -153,56 +152,56 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <Link href="https://github.com/Agastya221/Jira_clone_in_next_js">
+              <Link href={"https://github.com/Agastya221/Jira_clone_in_next_js"}>
               <Image
                 className="rounded-lg shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
+                      alt="img"
                 src={web1}
               />
               </Link>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <Link href="https://github.com/Agastya221/signup-form">
+              <Link href={"https://github.com/Agastya221/signup-form"}>
               <Image
                 className="rounded-lg shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]  object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
+                alt="img"
                 src={web2}
               />
               </Link>
               
             </div>
             <div className="basis-1/3 flex-1 ">
-              <Link href="https://github.com/Agastya221/React_Ecommerce"><Image
+              <Link href={"https://github.com/Agastya221/React_Ecommerce"}><Image
                 className="rounded-lg shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
+                alt="img"
                 src={web3}
               /></Link>
               
             </div>
             <div className="basis-1/3 flex-1 ">
-              <Link href="https://github.com/Agastya221/portfolio_website">
+              <Link href={"https://github.com/Agastya221/portfolio_website"}>
               <Image
                 className="rounded-lg shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
+                alt="img"
                 src={web4}
               />
               </Link>
             </div>
             <div className="basis-1/3 flex-1 ">
-              <Link  href="https://wave-portal-advance.netlify.app/">
+              <Link  href={"https://wave-portal-advance.netlify.app/"}>
               <Image
                 className="rounded-lg shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] object-cover"
                 width={"100%"}
                 height={"100%"}
-                layout="responsive"
+                alt="img"
                 src={web5}
               />
               </Link>
